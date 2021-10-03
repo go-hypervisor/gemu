@@ -1,4 +1,4 @@
-# zchee/gemu project gitattributes file
+# Go Hypervisor project gitattributes file
 #  https://github.com/github/linguist/blob/master/docs/overrides.md
 
 # To prevent CRLF breakages on Windows for fragile files, like testdata.
@@ -8,3 +8,5 @@ docs        linguist-documentation
 *.pb.go     linguist-generated
 *gen.go     linguist-generated
 *_string.go linguist-generated
+# Dockerfile
+Dockerfile.*  linguist-language=Dockerfile
